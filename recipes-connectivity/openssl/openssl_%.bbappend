@@ -1,8 +1,8 @@
-FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
+FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
-LDLIBS:append:toolchain-clang:riscv64 = " -latomic"
-LDLIBS:append:toolchain-clang:riscv32 = " -latomic"
+LDLIBS_append_toolchain-clang_riscv64 = " -latomic"
+LDLIBS_append_toolchain-clang_riscv32 = " -latomic"
 
-do_configure:prepend:toolchain-clang () {
+do_configure_prepend_toolchain-clang () {
     export LDLIBS="${LDLIBS}"
 }

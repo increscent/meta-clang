@@ -34,11 +34,11 @@ EXTRA_OECMAKE = "\
         -DLLVM_EXTERNAL_SPIRV_HEADERS_SOURCE_DIR=${S}/SPIRV-Headers \
 "
 
-do_compile:append() {
+do_compile_append() {
     oe_runmake llvm-spirv
 }
 
-do_install:append() {
+do_install_append() {
     install -Dm755 ${B}/tools/llvm-spirv/llvm-spirv ${D}${bindir}/llvm-spirv
 }
 

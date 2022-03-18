@@ -1,1 +1,1 @@
-CFLAGS:append:libc-musl = " -Wno-format-nonliteral"
+CFLAGS_append_libc-musl = " -Wno-format-nonliteral"

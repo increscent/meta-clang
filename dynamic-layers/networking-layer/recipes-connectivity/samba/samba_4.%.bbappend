@@ -1,3 +1,3 @@
-FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
+FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
-SRC_URI:append = " file://fix_duplicate_pdb_search_init.patch "
+SRC_URI_append = " file://fix_duplicate_pdb_search_init.patch "

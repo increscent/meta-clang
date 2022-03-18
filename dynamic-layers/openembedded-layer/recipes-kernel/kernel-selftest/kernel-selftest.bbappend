@@ -1,4 +1,4 @@
-DEPENDS:append = " clang-native"
-DEPENDS:remove = "llvm-native"
+DEPENDS_append = " clang-native"
+DEPENDS_remove = "llvm-native"
 
-EXCLUDE_FROM_WORLD:forcevariable = ""
+EXCLUDE_FROM_WORLD_forcevariable = ""

@@ -1,3 +1,3 @@
-FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
+FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 
-SRC_URI:append:toolchain-clang:mips64 = " file://clang_mips64.patch"
+SRC_URI_append_toolchain-clang_mips64 = " file://clang_mips64.patch"
