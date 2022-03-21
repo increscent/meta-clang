@@ -40,7 +40,6 @@ SRC_URI = "\
     file://0028-Do-not-force-thumb-mode-directive.patch \
     file://0029-clang-Do-not-use-install-relative-libc-headers.patch \
     file://0030-clang-Fix-how-driver-finds-GCC-installation-path-on-.patch \
-    file://0031-Fix-lib-paths-for-OpenEmbedded-Host.patch \
     file://0032-Correct-library-search-path-for-OpenEmbedded-Host.patch \
     file://0033-lldb-Link-with-libatomic-on-x86.patch \
     file://0034-clang-exclude-openembedded-distributions-from-settin.patch \
